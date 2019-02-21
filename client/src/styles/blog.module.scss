@@ -1,0 +1,17 @@
+#blog {
+  margin-top: 30px;
+  :global(.card) {
+    cursor: pointer;
+    padding: 2rem 1.5rem;
+    margin-bottom: 30px;
+    :global(.card-title) {
+      margin-bottom: 1rem;
+      font-weight: 450;
+    }
+    :global(.card-actions) {
+      margin-top: 1rem;
+      color: #00000050;
+      font-size: 1.25em;
+    }
+  }
+}

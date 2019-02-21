@@ -1,0 +1,13 @@
+#header {
+  :global(.col) {
+    padding: 0;
+  }
+
+  :global(.row) {
+    padding: 0 15px 0 30px;
+  }
+
+  a {
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,27 @@
+/* 
+  Variables must be defined before the materialize-css import.  For a full list of available variables for configuration, consult https://github.com/Dogfalo/materialize/blob/master/sass/components/_variables.scss 
+  */
+
+$primary-color: #663399;
+@import 'materialize-css/sass/materialize.scss';
+
+// Custom styles below this line
+#___gatsby > div {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+:global(.row) {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
