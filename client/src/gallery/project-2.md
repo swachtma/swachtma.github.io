@@ -1,9 +1,0 @@
----
-title: Second Gallery Post Example
-date: "2018-01-31"
-hero: images/project-2/prototype.jpg
----
-
-This file creates an example gallery project displayed on our homepage's Gallery layout.  Some data for our card is from the Markdown file's frontmatter.  The excerpt of text displayed is generated automatically by Gatsby-Transformer-Remark searching for the end marker defined in gatsby-config.js.  Without an end mark, the excerpt length defaults to 140 characters.
-<!-- end -->
-Fusce dignissim sem dolor, eu faucibus ex interdum non. Etiam eget faucibus sapien. Pellentesque dapibus imperdiet ligula, vitae dapibus tellus sollicitudin in. Fusce pulvinar tortor nec sapien sagittis, non egestas est efficitur. Suspendisse suscipit facilisis turpis. Proin eros augue, blandit at est in, mollis cursus lacus. Aenean elementum accumsan nisi. Aliquam erat volutpat.
